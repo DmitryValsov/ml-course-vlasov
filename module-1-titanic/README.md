@@ -50,14 +50,8 @@ print(prediction, probability)
 ```text
 module-1-titanic/
 ├── notebook.ipynb           # 14 разделов с выполненными ячейками
-├── report.html             # Отчёт для просмотра в браузере
 ├── README.md
 ├── requirements.txt
-├── student.json            # Автор и будущая ссылка GitHub
-├── titanic_utils.py        # Единая предобработка и инференс
-├── full_code.py            # Весь код с маркерами # %%
-├── verify_results.py       # Проверки сохранённых файлов без переобучения
-├── submission.csv          # 418 прогнозов для Kaggle
 ├── data/                   # Исходные CSV, описание и рассчитанные признаки
 ├── models/                 # Модели, scaler, encoder, preprocessor и JSON
 └── examples/               # EDA, ROC, матрицы, метрики и примеры
