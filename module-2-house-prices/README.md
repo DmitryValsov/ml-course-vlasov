@@ -44,6 +44,29 @@ python -m nbconvert --to notebook --execute --inplace --ExecutePreprocessor.time
 Альтернатива: `python full_code.py`. Проверка готовых артефактов без переобучения:
 `python verify_results.py`. При повторном запуске время fit изменится.
 
+
+## 📁 Структура модуля
+
+```
+module-2-house-prices/
+├── README.md                    ← этот файл
+├── notebook.ipynb               ← полный отчёт: 14 разделов
+├── requirements.txt             ← зависимости
+├── data/
+│   ├── train.csv                ← 1460 строк с целевой переменной
+│   ├── test.csv                 ← 1459 строк для submission
+│   └── house_prices_info.md     ← описание датасета
+└── models/                      ← сохранённые модели и метаданные
+    ├── lr_model.pkl             ← Linear Regression
+    ├── ridge_model.pkl          ← Ridge
+    ├── lasso_model.pkl          ← Lasso (лучшая модель)
+    ├── enet_model.pkl           ← ElasticNet
+    ├── scaler.pkl               ← StandardScaler
+    ├── feature_cols.json        ← список признаков
+    └── metrics.json             ← метрики всех моделей
+```
+
+
 ## Быстрый локальный прогноз
 
 ```python

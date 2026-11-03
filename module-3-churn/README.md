@@ -52,6 +52,37 @@ LabelEncoder, вспомогательный scaler, параметры Optuna, 
 `examples/`: EDA, ROC, матрицы, importance, история 30 проб, четыре графика SHAP,
 проверяемые SHAP-значения, holdout-прогнозы и три сырых клиента для инференса.
 
+
+## 📁 Структура модуля
+
+```
+module-3-churn/
+├── README.md                    ← описание модуля
+├── notebook.ipynb               ← полный отчёт: 14 разделов
+├── requirements.txt             ← зависимости
+├── data/
+│   ├── telco_churn.csv          ← исходный датасет
+│   └── churn_info.md            ← описание датасета
+├── models/                      ← сохранённые модели и метаданные
+│   ├── best_model.pkl           ← LightGBM (Optuna), лучшая модель
+│   ├── rf_model.pkl             ← Random Forest
+│   ├── xgb_model.pkl            ← XGBoost
+│   ├── lgbm_model.pkl           ← LightGBM (baseline)
+│   ├── cat_model.pkl            ← CatBoost
+│   ├── label_encoders.pkl       ← словарь кодировщиков (15 шт.)
+│   ├── feature_cols.json        ← список признаков
+│   └── metrics.json             ← метрики всех моделей
+└── examples/                    ← визуализации
+    ├── eda_plots.png
+    ├── feature_importance_lgbm.png
+    ├── feature_importance_rf.png
+    ├── roc_curves.png
+    ├── shap_dependence.png
+    ├── shap_summary_bar.png
+    ├── shap_summary_dot.png
+    └── shap_waterfall.png
+```
+
 ## Быстрый локальный инференс
 
 ```python

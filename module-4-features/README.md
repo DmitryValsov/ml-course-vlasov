@@ -78,6 +78,44 @@ label, probability = predict_session(session, bundle["best_model"],
 print(label, probability)
 ```
 
+## Структура
+
+```
+module-4-features/
+├── README.md                    ← этот файл
+├── notebook.ipynb               ← полный отчёт: 14 разделов
+├── requirements.txt             ← зависимости
+├── data/
+│   ├── online_shoppers_intention.csv
+│   └── dataset_info.md          ← описание датасета
+├── models/                      ← сохранённые модели и метаданные
+│   ├── best_model.pkl           ← LightGBM (Optuna), лучшая модель
+│   ├── rf_model.pkl             ← Random Forest
+│   ├── xgb_model.pkl            ← XGBoost
+│   ├── lgbm_model.pkl           ← LightGBM (baseline)
+│   ├── cat_model.pkl            ← CatBoost
+│   ├── label_encoders.pkl       ← словарь кодировщиков
+│   ├── feature_cols.json        ← список признаков
+│   └── metrics.json             ← метрики всех моделей
+└── examples/                    ← визуализации
+    ├── eda_plots.png
+    ├── feature_importance.png
+    ├── roc_curves.png
+    ├── shap_summary.png
+    └── shap_waterfall.png
+```
+```python
+import json
+from pathlib import Path
+from features_utils import load_local_artifacts, predict_session
+
+bundle = load_local_artifacts("models")
+session = json.loads(Path("examples/demo_sessions.json").read_text())[0]
+label, probability = predict_session(session, bundle["best_model"],
+    bundle["preprocessor"], bundle["feature_cols"])
+print(label, probability)
+```
+
 Нужен полный сырой профиль из 17 полей без Revenue. Модели используют
 немасштабированные признаки; scaler сохранён по структуре задания и не включён
 в инференс. Балансировочные веса не гарантируют калибровку вероятностей.

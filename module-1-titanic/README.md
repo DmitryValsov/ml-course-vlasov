@@ -47,14 +47,19 @@ print(prediction, probability)
 ```
 ## Структура
 
-```text
+## 📁 Структура модуля
+
+```
 module-1-titanic/
-├── notebook.ipynb           # 14 разделов с выполненными ячейками
-├── README.md
-├── requirements.txt
-├── data/                   # Исходные CSV, описание и рассчитанные признаки
-├── models/                 # Модели, scaler, encoder, preprocessor и JSON
-└── examples/               # EDA, ROC, матрицы, метрики и примеры
+├── README.md                    ← этот файл
+├── notebook.ipynb               ← полный отчёт: 14 разделов
+├── requirements.txt             ← зависимости
+├── data/
+│   ├── train.csv                ← 891 строка с целевой переменной
+│   ├── test.csv                 ← 418 строк для submission
+│   └── titanic_info.md          ← описание датасета
+├── models/                      ← сохранённые модели и метаданные
+└── examples/                    ← PNG-визуализации
 ```
 
 ## Методические решения и ограничения
