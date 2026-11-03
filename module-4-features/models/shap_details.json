@@ -1,0 +1,86 @@
+{
+  "model": "lightgbm_optuna",
+  "units": "log_odds",
+  "sample_rows": 300,
+  "risk_position": 1474,
+  "source_row": 6431,
+  "probability": 0.9290208993314294,
+  "base_value": -1.073249822059986,
+  "raw_output": 2.5717457582209025,
+  "top_features": [
+    {
+      "Feature": "PageValues",
+      "MeanAbsSHAP": 0.6818669867763748
+    },
+    {
+      "Feature": "MonthNum",
+      "MeanAbsSHAP": 0.5306380840872987
+    },
+    {
+      "Feature": "AvgPageValue",
+      "MeanAbsSHAP": 0.38792201916226726
+    },
+    {
+      "Feature": "Month",
+      "MeanAbsSHAP": 0.1406594056947754
+    },
+    {
+      "Feature": "ExitRates",
+      "MeanAbsSHAP": 0.06870407221585483
+    },
+    {
+      "Feature": "BounceRates",
+      "MeanAbsSHAP": 0.043830327380338714
+    },
+    {
+      "Feature": "ProductPageShare",
+      "MeanAbsSHAP": 0.04120332208973062
+    },
+    {
+      "Feature": "TrafficType",
+      "MeanAbsSHAP": 0.03664599147399791
+    }
+  ],
+  "local_contributions": [
+    {
+      "Feature": "PageValues",
+      "Value": 83.93274289,
+      "SHAP": 1.7354628399578471
+    },
+    {
+      "Feature": "AvgPageValue",
+      "Value": 4.662930160555556,
+      "SHAP": 1.1954319900248775
+    },
+    {
+      "Feature": "MonthNum",
+      "Value": 9.0,
+      "SHAP": 0.2385208242822769
+    },
+    {
+      "Feature": "BounceRates",
+      "Value": 0.0,
+      "SHAP": 0.13531899008113363
+    },
+    {
+      "Feature": "Month",
+      "Value": 9.0,
+      "SHAP": 0.10381843451605598
+    },
+    {
+      "Feature": "ExitRates",
+      "Value": 0.011111111,
+      "SHAP": 0.06124924846650933
+    },
+    {
+      "Feature": "Administrative",
+      "Value": 0.0,
+      "SHAP": 0.04455868507271526
+    },
+    {
+      "Feature": "TotalPages",
+      "Value": 17.0,
+      "SHAP": 0.025958093652505735
+    }
+  ]
+}

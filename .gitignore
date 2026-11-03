@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.env
+# Исходные CSV меньше 10 MB и нужны для воспроизведения.
+# Большие выгрузки следует хранить вне репозитория.
+data_large/

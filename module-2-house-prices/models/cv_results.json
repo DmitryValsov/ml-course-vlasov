@@ -1,0 +1,34 @@
+{
+  "linear_regression": {
+    "rmse_log_mean": 0.13240592363061926,
+    "rmse_log_std": 0.00924909724774057,
+    "params": {}
+  },
+  "ridge": {
+    "rmse_log_mean": 0.1152181199340729,
+    "rmse_log_std": 0.0065294300181061886,
+    "params": {
+      "regressor__alpha": 100
+    }
+  },
+  "lasso": {
+    "rmse_log_mean": 0.11101330595563623,
+    "rmse_log_std": 0.00592344755937023,
+    "params": {
+      "regressor__alpha": 0.003
+    }
+  },
+  "elasticnet": {
+    "rmse_log_mean": 0.11117999914400056,
+    "rmse_log_std": 0.006045554588569645,
+    "params": {
+      "regressor__alpha": 0.003,
+      "regressor__l1_ratio": 0.8
+    }
+  },
+  "gradient_boosting": {
+    "rmse_log_mean": 0.11913638363258863,
+    "rmse_log_std": 0.007254301768059035,
+    "params": {}
+  }
+}

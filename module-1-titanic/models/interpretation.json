@@ -1,0 +1,136 @@
+{
+  "coefficients": [
+    {
+      "Feature": "Sex_Encoded",
+      "Coefficient": -1.2228085298710807
+    },
+    {
+      "Feature": "Pclass",
+      "Coefficient": -0.9679472137722643
+    },
+    {
+      "Feature": "Age",
+      "Coefficient": -0.5560191771847396
+    },
+    {
+      "Feature": "SibSp",
+      "Coefficient": -0.2950304030767716
+    },
+    {
+      "Feature": "Is_Alone",
+      "Coefficient": -0.28371902795004966
+    },
+    {
+      "Feature": "Family_Size",
+      "Coefficient": -0.22411583395094034
+    },
+    {
+      "Feature": "Embarked_S",
+      "Coefficient": -0.13000361524128495
+    },
+    {
+      "Feature": "Parch",
+      "Coefficient": -0.05152631854597926
+    },
+    {
+      "Feature": "Fare",
+      "Coefficient": 0.0778279771454059
+    },
+    {
+      "Feature": "Embarked_Q",
+      "Coefficient": 0.0899161456183623
+    }
+  ],
+  "importances": [
+    {
+      "Feature": "Sex_Encoded",
+      "Importance": 0.5476624462331116
+    },
+    {
+      "Feature": "Pclass",
+      "Importance": 0.18618551296363325
+    },
+    {
+      "Feature": "Fare",
+      "Importance": 0.10521035341504639
+    },
+    {
+      "Feature": "Age",
+      "Importance": 0.09992229995278976
+    },
+    {
+      "Feature": "Family_Size",
+      "Importance": 0.05660134809733255
+    },
+    {
+      "Feature": "Parch",
+      "Importance": 0.002739869356952855
+    },
+    {
+      "Feature": "SibSp",
+      "Importance": 0.0016781699811336261
+    },
+    {
+      "Feature": "Is_Alone",
+      "Importance": 0.0
+    },
+    {
+      "Feature": "Embarked_Q",
+      "Importance": 0.0
+    },
+    {
+      "Feature": "Embarked_S",
+      "Importance": 0.0
+    }
+  ],
+  "insights": {
+    "Sex": {
+      "female": {
+        "count": 314,
+        "rate": 0.7420382165605095
+      },
+      "male": {
+        "count": 577,
+        "rate": 0.18890814558058924
+      }
+    },
+    "Pclass": {
+      "1": {
+        "count": 216,
+        "rate": 0.6296296296296297
+      },
+      "2": {
+        "count": 184,
+        "rate": 0.47282608695652173
+      },
+      "3": {
+        "count": 491,
+        "rate": 0.24236252545824846
+      }
+    },
+    "Is_Alone": {
+      "0": {
+        "count": 354,
+        "rate": 0.5056497175141242
+      },
+      "1": {
+        "count": 537,
+        "rate": 0.30353817504655495
+      }
+    },
+    "Embarked": {
+      "C": {
+        "count": 168,
+        "rate": 0.5535714285714286
+      },
+      "Q": {
+        "count": 77,
+        "rate": 0.38961038961038963
+      },
+      "S": {
+        "count": 644,
+        "rate": 0.33695652173913043
+      }
+    }
+  }
+}

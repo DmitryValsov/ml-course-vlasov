@@ -1,0 +1,86 @@
+{
+  "model": "lightgbm_optuna",
+  "units": "log_odds",
+  "sample_rows": 300,
+  "risk_position": 1090,
+  "customer_id": "5178-LMXOP",
+  "probability": 0.9513761096314947,
+  "base_value": -0.6275516027123462,
+  "raw_output": 2.973794491438651,
+  "top_features": [
+    {
+      "Feature": "Contract",
+      "MeanAbsSHAP": 0.8023788864245319
+    },
+    {
+      "Feature": "tenure",
+      "MeanAbsSHAP": 0.33488015519134384
+    },
+    {
+      "Feature": "MonthlyCharges",
+      "MeanAbsSHAP": 0.2909073106278509
+    },
+    {
+      "Feature": "OnlineSecurity",
+      "MeanAbsSHAP": 0.268594857854016
+    },
+    {
+      "Feature": "TechSupport",
+      "MeanAbsSHAP": 0.21244290232318674
+    },
+    {
+      "Feature": "PaymentMethod",
+      "MeanAbsSHAP": 0.11935811306940558
+    },
+    {
+      "Feature": "PaperlessBilling",
+      "MeanAbsSHAP": 0.1128345354527671
+    },
+    {
+      "Feature": "OnlineBackup",
+      "MeanAbsSHAP": 0.0819955177192966
+    }
+  ],
+  "local_contributions": [
+    {
+      "Feature": "Contract",
+      "Value": 0.0,
+      "SHAP": 0.8573270205643382
+    },
+    {
+      "Feature": "tenure",
+      "Value": 1.0,
+      "SHAP": 0.7591101923505396
+    },
+    {
+      "Feature": "MonthlyCharges",
+      "Value": 95.1,
+      "SHAP": 0.36766976567011195
+    },
+    {
+      "Feature": "OnlineSecurity",
+      "Value": 0.0,
+      "SHAP": 0.24569553274520872
+    },
+    {
+      "Feature": "TechSupport",
+      "Value": 0.0,
+      "SHAP": 0.22482650440173216
+    },
+    {
+      "Feature": "TotalCharges",
+      "Value": 95.1,
+      "SHAP": 0.21494236656074406
+    },
+    {
+      "Feature": "TenureYears",
+      "Value": 0.08333333333333333,
+      "SHAP": 0.15885627747418113
+    },
+    {
+      "Feature": "PaymentMethod",
+      "Value": 2.0,
+      "SHAP": 0.14617328093357734
+    }
+  ]
+}

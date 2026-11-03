@@ -1,0 +1,18 @@
+{
+  "n_trials": 30,
+  "best_cv_auc": 0.8489788833992495,
+  "best_params": {
+    "max_depth": 3,
+    "num_leaves": 7,
+    "n_estimators": 300,
+    "learning_rate": 0.020999598644611237,
+    "subsample": 0.9086019853116231,
+    "colsample_bytree": 0.8345405303183894,
+    "min_child_samples": 48,
+    "reg_alpha": 0.0007401233968259767,
+    "reg_lambda": 0.013305823741902192
+  },
+  "optimization_time_sec": 38.407940834003966,
+  "sampler": "TPESampler(seed=42)",
+  "cv_folds": 5
+}

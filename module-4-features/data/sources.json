@@ -1,0 +1,10 @@
+{
+  "dataset": "Online Shoppers Purchasing Intention",
+  "creators": "C. Sakar, Y. Kastro (2018)",
+  "dataset_doi": "https://doi.org/10.24432/C5F88Q",
+  "license": "CC BY 4.0",
+  "source_page": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+  "download_url": "https://archive.ics.uci.edu/static/public/468/online%2Bshoppers%2Bpurchasing%2Bintention%2Bdataset.zip",
+  "download_date": "2026-11-03",
+  "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+}

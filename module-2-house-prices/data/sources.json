@@ -1,0 +1,15 @@
+{
+  "original_dataset": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques",
+  "mirror_documentation": "https://d2l.ai/chapter_multilayer-perceptrons/kaggle-house-price.html",
+  "download_date": "2026-11-02",
+  "files": {
+    "train.csv": {
+      "download_url": "https://d2l-data.s3-accelerate.amazonaws.com/kaggle_house_pred_train.csv",
+      "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+    },
+    "test.csv": {
+      "download_url": "https://d2l-data.s3-accelerate.amazonaws.com/kaggle_house_pred_test.csv",
+      "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+    }
+  }
+}

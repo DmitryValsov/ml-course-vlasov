@@ -1,0 +1,63 @@
+{
+  "n_features": 244,
+  "lasso_zero": 137,
+  "ridge_positive": [
+    {
+      "Feature": "GrLivArea",
+      "ridge": 0.039989323694129365
+    },
+    {
+      "Feature": "OverallQual",
+      "ridge": 0.03894837365809941
+    },
+    {
+      "Feature": "OverallCond",
+      "ridge": 0.036471884336242016
+    },
+    {
+      "Feature": "LotArea",
+      "ridge": 0.03297179963223424
+    },
+    {
+      "Feature": "OverallQual_TotalSF",
+      "ridge": 0.029297466520860977
+    }
+  ],
+  "ridge_negative": [
+    {
+      "Feature": "HouseAge",
+      "ridge": -0.021552097597066142
+    },
+    {
+      "Feature": "KitchenAbvGr",
+      "ridge": -0.011931527456110456
+    },
+    {
+      "Feature": "MSSubClass_160",
+      "ridge": -0.011521886098123503
+    },
+    {
+      "Feature": "Functional_Maj2",
+      "ridge": -0.011178596607591736
+    },
+    {
+      "Feature": "Exterior1st_BrkComm",
+      "ridge": -0.01055857989469684
+    }
+  ],
+  "quality_price_corr": 0.7909816005838054,
+  "area_price_corr": 0.7086244776126518,
+  "garage_corr": 0.8824754142814619,
+  "pool": {
+    "False": {
+      "n": 1453,
+      "median": 162900.0,
+      "mean": 180404.66345492084
+    },
+    "True": {
+      "n": 7,
+      "median": 235000.0,
+      "mean": 288138.5714285714
+    }
+  }
+}
